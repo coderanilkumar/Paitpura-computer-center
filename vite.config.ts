@@ -7,6 +7,7 @@ import { createServer } from "./server";
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
+    base: '/paitpura-computer-center/',
     port: 8080,
   },
   build: {
